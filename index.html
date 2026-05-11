@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle Eng - Multilingual Legacy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="scripts.js"></script>
+  </head>
+  <body>
+    <div id="tela-inicio">
+      <h1>WORDLE ENG</h1>
+      <p>Escolha o idioma / Choose your language:</p>
+      <button class="btn-idioma" onclick="comecar('pt')">Português</button>
+      <button class="btn-idioma" onclick="comecar('en')">English</button>
+    </div>
+
+    <div id="tela-jogo">
+      <div class="instrucoes" id="msg-instr"></div>
+      <div class="stats-container">
+        <div>SCORE: <span id="score-val">0</span></div>
+        <div>RODADA/ROUND: <span id="round-val">1</span></div>
+      </div>
+      <div class="grid" id="board"></div>
+    </div>
+  </body>
+</html>
