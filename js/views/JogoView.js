@@ -1,5 +1,3 @@
-js / views / JogoView.js;
-
 import { TEXTOS } from "../data/palavras.js";
 
 export class JogoView {

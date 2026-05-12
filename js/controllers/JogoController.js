@@ -1,5 +1,3 @@
-js/controllers/JogoController.js
-
 import { TEXTOS } from "../data/palavras.js";
 
 export class JogoController {

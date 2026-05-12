@@ -1,5 +1,3 @@
-js/scripts.js
-
 import {
   PALAVRAS_POR_IDIOMA,
   TAMANHO_PALAVRA,
