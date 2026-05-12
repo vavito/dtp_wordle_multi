@@ -4,7 +4,7 @@ import {
   MAX_TENTATIVAS,
 } from "./data/palavras.js";
 
-import { JogoModel } from "./models/JogoModel.js";
+import { JogoModel } from "./models/JogoModels.js";
 import { JogoView } from "./views/JogoView.js";
 import { JogoController } from "./controllers/JogoController.js";
 
